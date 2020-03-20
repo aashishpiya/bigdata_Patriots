@@ -1,0 +1,3 @@
+*/30 8-10 * * * /home/ap/Documents/bigdata/bigdata_Patriots/execute/wordcountFromTxtFile.py
+
+

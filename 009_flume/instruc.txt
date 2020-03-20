@@ -1,0 +1,20 @@
+ap@ap-VirtualBox:~$ source .bash_profile
+ap@ap-VirtualBox:~$ cd opt/
+ap@ap-VirtualBox:~/opt$ ls
+apache-flume-1.9.0-bin  jdk1.8.0_221  sbt           test
+idea-IC-193.6494.35     Python-3.7.2  scala-2.11.8
+ap@ap-VirtualBox:~/opt$ cd apache-flume-1.9.0-bin/
+ap@ap-VirtualBox:~/opt/apache-flume-1.9.0-bin$ ls
+bin        conf      doap_Flume.rdf  lib      NOTICE     RELEASE-NOTES
+CHANGELOG  DEVNOTES  docs            LICENSE  README.md  tools
+ap@ap-VirtualBox:~/opt/apache-flume-1.9.0-bin$ cd conf/
+ap@ap-VirtualBox:~/opt/apache-flume-1.9.0-bin/conf$ ls
+flume-conf.properties.template  flume-env.sh.template
+flume-env.ps1.template          log4j.properties
+ap@ap-VirtualBox:~/opt/apache-flume-1.9.0-bin/conf$ 
+ap@ap-VirtualBox:~/opt/apache-flume-1.9.0-bin/conf$ ls
+flume-conf.properties.template  flume-env.sh.template
+flume-env.ps1.template          log4j.properties
+ap@ap-VirtualBox:~/opt/apache-flume-1.9.0-bin/conf$ sudo gedit flume-conf.properties.template 
+[sudo] password for ap: 
+
